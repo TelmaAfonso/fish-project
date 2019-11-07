@@ -47,7 +47,8 @@ setup(
         # dependencies for `python setup.py build_sphinx`
         'sphinx',
         'sphinx_rtd_theme',
-        'recommonmark'
+        'recommonmark',
+        'a_package'
     ],
     tests_require=[
         'pytest',
@@ -56,5 +57,6 @@ setup(
     ],
     extras_require={
         'dev':  ['prospector[with_pyroma]', 'yapf', 'isort'],
-    }
+    },
+    python_requires='==2.6'
 )
