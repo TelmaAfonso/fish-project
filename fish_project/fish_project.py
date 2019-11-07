@@ -9,6 +9,8 @@ def example():
     logger.info('Providing information about the excecution of the function.')
     print('Hello Fish!')
 
+    
+
 
 if __name__ == "__main__":
-    example()
+    exampleOops()
